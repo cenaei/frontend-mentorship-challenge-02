@@ -62,7 +62,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Sina Sangiji - [@cenaei](https://twitter.com/twitter_handle) - sina.sangiji@gmail.com
+Sina Sangiji - [@cenaei](https://twitter.com/cenaei) - sina.sangiji@gmail.com
 
 Main Project Link: [https://github.com/cenaei/frontend-mentorship-challenge/](https://github.com/cenaei/frontend-mentorship-challenge/)
 
