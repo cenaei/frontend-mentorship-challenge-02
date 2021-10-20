@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigh up!</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <main>
+      <div class="loginView">
+        <form id="loginForm">
+          <span class="formItems">
+            <label for="NameInput" class="formLable">FullName</label>
+            <input type="text" id="nameInput" class="loginInputs" />
+          </span>
+
+          <span class="formItems">
+            <label for="emailInput" class="formLable">Email Address</label>
+            <input type="email" id="emailInput" class="loginInputs" />
+          </span>
+
+          <span class="formItems">
+            <label for="dateInput" class="formLable">Date Of Birth</label>
+            <input type="date" id="dateInput" class="loginInputs" />
+          </span>
+
+          <span class="formItems">
+            <label class="formLable" for="Gender">Gender</label>
+            <span class="genderChoices">
+              <span class="genderItems">
+                <input type="radio" name="Gender" id="maleGender" />
+                <label for="maleGender">male</label>
+              </span>
+              <span class="genderItems">
+                <input type="radio" name="Gender" id="femaleGender" />
+                <label for="femaleGender">female</label>
+              </span>
+            </span>
+          </span>
+
+          <span class="acceptTerms">
+            <input type="checkbox" id="agreement" />
+            <label for="agreement" class="formLable"
+              >I accept the terms & conditions
+            </label>
+          </span>
+          <span class="formItems">
+            <button id="btn-submit" type="submit">Create Account</button>
+          </span>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

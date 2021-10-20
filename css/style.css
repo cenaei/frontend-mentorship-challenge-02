@@ -1,0 +1,104 @@
+@import "../css/reset.css";
+
+:root {
+  --lightColor: #fff;
+  --lightGray: #e5eef3;
+  --darkGray: #515151;
+  --lightBlueColor: #3498db;
+  --darkBlueColor: #3498db;
+}
+
+body {
+  background: url(../img/bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Start: Form */
+
+/* Styling Generally */
+
+.loginView {
+  background: var(--lightGray);
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  box-shadow: var(--darkGray) 0.3rem 0.3rem 0.5rem;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formItems {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.formItems label {
+  padding-left: 1rem;
+  padding-bottom: .2rem;
+  font-size: small;
+}
+
+.loginInputs {
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: .8rem;
+}
+
+.loginInputs:focus {
+  border-bottom: 2px solid blue;
+}
+
+/* End of Styling Generally */
+
+/* Start: Gender and Term & Conditions */
+.genderChoices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.genderItems {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  background: var(--lightColor);
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+}
+
+.acceptTerms {
+  padding-left: 2rem;
+}
+/* End: : Gender and Term & Conditions */
+
+/* Start: Button */
+#btn-submit {
+  color: var(--lightColor);
+  background: var(--darkBlueColor);
+  padding: 1rem 0;
+  border: none;
+  border-radius: 1rem;
+}
+
+#btn-submit:hover {
+  cursor: pointer;
+}
+/* End: Button */
+
+/* End: Form */
